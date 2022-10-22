@@ -8,6 +8,9 @@ import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 
 function Experience() {
+  React.useEffect(()=>{
+    document.title="Experience"
+  },[])
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">
