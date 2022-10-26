@@ -27,7 +27,7 @@ function Navbar() {
         <Link to="/"> Home </Link>
         <Link to="/projects"> Projects </Link>
         <Link to="/experience"> Experience </Link>
-        <a href="https://drive.google.com/file/d/18r-efP38MTbKNJTshw976QkCY_y8yMfz/view?usp=sharing" style={{ color: "white", textDecoration: "none" }} target="_blank">Resume</a>
+        <a href="https://drive.google.com/file/d/1x7nqMcyymZjKjbFEf2r6nS8d0QktQxpK/view?usp=sharing" style={{ color: "white", textDecoration: "none" }} target="_blank">Resume</a>
       </div>
     </div>
   );
