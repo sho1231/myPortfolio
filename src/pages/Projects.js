@@ -14,7 +14,7 @@ function Projects() {
       <div className="projectList">
         {ProjectList.map((project, idx) => {
           return (
-            <ProjectItem id={idx} name={project.name} image={project.image} front={project.githubFront} back={project.githubBack} dep={project.deployedLink} username={project.username} pass={project.pass} />
+            <ProjectItem id={idx} name={project.name} info={project.info} image={project.image} front={project.githubFront} back={project.githubBack} dep={project.deployedLink} username={project.username} pass={project.pass} />
           );
         })}
       </div>
