@@ -10,18 +10,25 @@
   margin-top: 200px;
 }
 
-
-
-.footer div {
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px
+.contact{
+  display:flex;
+  color:white;
+  font-size: 20px;
+}
+.profiles{
+  display:flex;
+  color:white;
+  justify-content:space-between;
+}
+.createSpace{
+  color:black
+}
+.profiles svg{
+  font-size:40px
 }
 
 @media only screen and (max-width: 600px) {
   .footer svg {
-    font-size: 50px;
+    font-size: 25px;
   }
 }

@@ -1,7 +1,6 @@
 import Proj1 from "../assets/proj1.jpg";
 import Proj2 from "../assets/proj2.jpg";
 import Proj3 from "../assets/proj3.png";
-import Proj4 from "../assets/proj4.png";
 
 export const ProjectList = [
   {
@@ -27,7 +26,7 @@ export const ProjectList = [
   {
     name: "Map Diary",
     image: Proj3,
-    info:"Pin your place,rate and review it at ease.",
+    info:"Pin your place,write your favourite destinations,rate and review it at ease.",
     deployedLink:"https://vermillion-daifuku-4d4c75.netlify.app/",
     githubFront:"https://github.com/sho1231/mapfront",
     githubBack:"https://github.com/sho1231/mapbackend",

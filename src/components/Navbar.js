@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
 import ReorderIcon from "@material-ui/icons/Reorder";
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
-
+  const navigate=useNavigate();
   const location = useLocation();
 
   useEffect(() => {
     setExpandNavbar(false);
   }, [location]);
-
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
       <div className="toggleButton">
@@ -27,7 +27,7 @@ function Navbar() {
         <Link to="/"> Home </Link>
         <Link to="/projects"> Projects </Link>
         <Link to="/experience"> Experience </Link>
-        <a href="https://drive.google.com/file/d/1x7nqMcyymZjKjbFEf2r6nS8d0QktQxpK/view?usp=sharing" style={{ color: "white", textDecoration: "none" }} target="_blank">Resume</a>
+        <a onClick={() => { document.querySelector("#footer").scrollIntoView() }} style={{ cursor: "pointer" }}>Contact</a>
       </div>
     </div>
   );

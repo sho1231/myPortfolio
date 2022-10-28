@@ -28,6 +28,7 @@
   width: 40%;
   font-size: 30px;
 }
+
 .prompt svg {
   font-size: 60px;
   margin: 5px;
@@ -41,20 +42,26 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  overflow: auto;
+  overflow: hidden;
+  padding: 3px
 }
 
 .skills h1 {
   color: black;
 }
 
-.skills .list {
+li{
   list-style: none;
-  width: 60%;
 }
 
-.list span {
-  font-size: 20px;
+.frontend img {
+  object-fit: "contain";
+  height: "44px";
+}
+
+.databases{
+  padding: 10px;
+  
 }
 
 @media only screen and (max-width: 600px) {
@@ -71,6 +78,7 @@
   .skills {
     text-align: center;
   }
+
   .list {
     padding: 0;
   }
