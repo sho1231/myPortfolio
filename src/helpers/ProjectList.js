@@ -1,7 +1,7 @@
 import Proj1 from "../assets/proj1.jpg";
 import Proj2 from "../assets/proj2.jpg";
 import Proj3 from "../assets/proj3.png";
-
+import todo from '../assets/todo.jpg';
 export const ProjectList = [
   {
     name: "Rent Easy",
@@ -32,5 +32,12 @@ export const ProjectList = [
     githubBack:"https://github.com/sho1231/mapbackend",
     username:"use123",
     pass:"12345",
+  },
+  {
+    name:"ToDo App",
+    image:todo,
+    info:"A personalized app created to jot down the list of things to do and after that delete it",
+    deployedLink:"https://todo-app123123.netlify.app/",
+    githubFront:"https://github.com/sho1231/todo-app"
   }
 ];
