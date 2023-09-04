@@ -7,7 +7,7 @@ export const ProjectList = [
     name: "Rent Easy",
     info:"An app where we can rent product with ease at a reasonable price.Also can rent out your own product for others to rent.",
     image: Proj1,
-    deployedLink:"https://renteasy123.netlify.app/",
+    deployedLink:"https://rentease1.netlify.app/",
     githubFront:"https://github.com/shourja121/Rent-Easy-frontend",
     githubBack:"https://github.com/shourja121/RentEasy-Bacend",
     username:"user123@gmail.com",
